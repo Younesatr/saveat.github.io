@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    base: "/YOUR_REPO_NAME/",  // <-- IMPORTANT: change this
+    base: "/saveat.github.io/",  // <-- IMPORTANT: change this
     build: {
       outDir: 'dist',
       assetsDir: 'assets',
